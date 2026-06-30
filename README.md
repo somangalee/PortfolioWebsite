@@ -1,5 +1,5 @@
 # Portfolio Website
-Hello, welcome to my portfolio website repo (^.^). I built this website using **React** and **Vite** to showcase my projects, technical skills, and experience. I have also included a page that contains things that don't necessarily fit under a work portfolio such as my hobbies, side interests, and mild distractions. 
+Hello, welcome to my portfolio website repo (^.^). I built this website using **React** and **Vite** to showcase my projects, technical skills, and experience. I have also included a page that contains things that don't necessarily fit under a work portfolio such as my hobbies, side interests, etc.
 
 ## Live Demo
 - 📄 **Live Demo:** 
@@ -18,7 +18,6 @@ Hello, welcome to my portfolio website repo (^.^). I built this website using **
 - HTML
 - CSS
 
----
 
 ## 📂 Project Structure
 
@@ -48,8 +47,6 @@ src/
 └── index.html
 ```
 
----
-
 ## Try it out
 
 ### Clone the repository
@@ -76,8 +73,6 @@ Open your browser and visit:
 ```
 http://localhost:5173
 ```
-
----
 
 
 ## Acknowledgements
