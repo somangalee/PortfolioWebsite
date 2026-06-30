@@ -24,26 +24,37 @@ Hello, welcome to my portfolio website repo (^.^). I built this website using **
 ```text
 src/
 ├── assets/
-│   └── assets/
+│   ├── images/
+│   ├── models/
+│   │   └── card.glb 
+│   └── icons/
 ├── components/
 │   ├── Navigation.jsx
 │   ├── Hero.jsx
 │   ├── About.jsx
-│   ├── card.glb
 │   ├── Portfolio.jsx
 │   ├── Experience.jsx
-│   ├── ProjectCard.jsx
-│   ├── ProjectCard.css
 │   ├── Contact.jsx
 │   ├── Footer.jsx
-│   ├── TextType.jsx
-│   ├── TextType.css
-│   ├── Lanyard.jsx
-│   └── Lanyard.css
+|   |
+│   ├── TextType/
+│   │   ├── TextType.jsx
+│   │   └── TextType.css
+|   |
+│   ├── Lanyard/
+│   │   ├── Lanyard.jsx
+│   |   └── Lanyard.css
+|   |
+│   └── ProjectCard/
+│       ├── ProjectCard.jsx
+│       └── ProjectCard.css
 ├── pages/
-│   ├── Home.jsx
-│   ├── Home.css
-│   └── Fun.jsx
+│   ├── Home/
+│   │   ├── Home.jsx
+│   │   └── Home.css
+│   │
+│   └── Fun/
+│       └── Fun.jsx
 ├── App.jsx
 ├── main.jsx
 └── index.html
