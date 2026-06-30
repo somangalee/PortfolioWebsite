@@ -32,6 +32,8 @@ src/
 │   ├── card.glb
 │   ├── Portfolio.jsx
 │   ├── Experience.jsx
+│   ├── ProjectCard.jsx
+│   ├── ProjectCard.css
 │   ├── Contact.jsx
 │   ├── Footer.jsx
 │   ├── TextType.jsx
