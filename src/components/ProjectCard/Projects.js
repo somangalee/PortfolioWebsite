@@ -6,7 +6,7 @@ export const projects = [
     id: 1,
     title: "AI Course Scheduler",
     category: "Web App",
-    description: "AI scheduling assistant...",
+    description: "AI dssssssssssssssssssssssssss dsfas dfa dafas adsf dfasdf scheduling assistant...",
     image: trial,
     technologies: ["React", "Python", "OpenAI"],
     visit:"df",
