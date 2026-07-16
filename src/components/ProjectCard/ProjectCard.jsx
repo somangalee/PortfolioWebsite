@@ -1,6 +1,10 @@
 import "./ProjectCard.css";
 
 import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+
+
 import React from 'react'
 
 // This is our main card component
@@ -21,8 +25,12 @@ const ProjectCard = ({
 
         <div className = "card-content">
 
-            <h4 className = "project-category">{category}</h4>
             <h3 className = "card-title">{title}</h3>
+            
+            <h4 className = "project-category">
+                <FaCode />
+                {category}
+            </h4>
         
             <p className = "card-description">{description}</p>
            
@@ -41,7 +49,8 @@ const ProjectCard = ({
                 <a
                 href={visit}
                 className="visit-btn"
-                > Visit
+                > 
+                <FaExternalLinkAlt /> Visit
                 </a>
 
                 <a

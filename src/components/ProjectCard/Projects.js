@@ -4,9 +4,9 @@ import trial from "../../assets/images/try.jpeg"
 export const projects = [
   {
     id: 1,
-    title: "AI Course Scheduler",
-    category: "Web App",
-    description: "AI dssssssssssssssssssssssssss dsfas dfa dafas adsf dfasdf scheduling assistant...",
+    title: "TwoDo",
+    category: "Full Stack",
+    description: "An original app for creating, scheduling and keeping track of achievements. COMING SOON",
     image: trial,
     technologies: ["React", "Python", "OpenAI"],
     visit:"df",
