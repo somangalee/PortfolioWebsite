@@ -10,7 +10,7 @@ export const projects = [
     image: trial,
     technologies: ["React", "Python", "OpenAI"],
     visit:"df",
-    code: "dfs",
+    code: 'https://github.com/somangalee/TwoDo',
     details: "jdfh" 
   },
   {

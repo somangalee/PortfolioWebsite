@@ -24,6 +24,9 @@ function Portfolio() {
                     image={project.image}
                     description={project.description}
                     technologies={project.technologies}
+                    visit={project.visit}
+                    code={project.code}
+                    details={project.details}
                     />
                 ))}
                 </div>
