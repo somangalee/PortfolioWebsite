@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 import { gsap } from "gsap";
 import "./TextType/TextType.css";
-import profilePic from "../assets/me.jpeg";
+import profilePic from "../assets/images/me.jpeg";
 
 function Hero() {
     return (

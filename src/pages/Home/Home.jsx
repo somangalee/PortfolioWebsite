@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navigation";
 import Hero from "../../components/Hero";
 import About from "../../components/About";
-import Experience from "../../components/Experience";
+import Experience from "../../components/Experience/Experience";
 import Portfolio from "../../components/Portfolio";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
@@ -13,8 +13,8 @@ function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Portfolio />
       <Experience />
+      <Portfolio />
       <Contact />
       <Footer />
     </>
