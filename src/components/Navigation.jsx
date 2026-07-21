@@ -30,14 +30,14 @@ function Navbar() {
         </li>
 
         <li>
-          <a href="#portfolio-section" className="navbar-item">
-            Portfolio
+          <a href="#resume-section" className="navbar-item">
+            Resume
           </a>
         </li>
 
         <li>
-          <a href="#resume-section" className="navbar-item">
-            Resume
+          <a href="#portfolio-section" className="navbar-item">
+            Portfolio
           </a>
         </li>
 

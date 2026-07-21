@@ -5,7 +5,7 @@ function Footer() {
             <div className = "footer-text">
                 <footer>
                     <div class="footer-container">
-                        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
+                        <p>&copy; 2026 Somang Lee.</p>
                         <nav class="footer-links">
                             <a href="#privacy">Privacy Policy</a> | 
                             <a href="#terms">Terms of Service</a> | 

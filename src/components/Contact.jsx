@@ -1,4 +1,7 @@
 // My Contact Section
+import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 function Contact() {
     return (
@@ -8,9 +11,26 @@ function Contact() {
                 <h1 className="contact-header">Contact Me</h1>
                 <hr className = "contact-line"/>
 
-                <p>Hi, I'm Somang Lee! I create unique functional user-centered digital experiences.
-                    I am a senior Computer Science student at Arizona State Univeristy.
-                    Through my code, I create throughtful ideas to life.</p>
+                <p>Let's build something together! Want to know more about me, tell me about your project or just to say hello? Drop me a line and I'll get back as soon as possible.</p>
+
+                {/* Social icons */}
+                <div className="connect-icons">
+                
+                    <a href="mailto:salee25@asu.edu">
+                        <MdEmail size={70} />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/somangaiyannalee/">
+                        <FaLinkedin size={70} />
+                    </a>
+
+                    <a href="https://github.com/somangalee">
+                        <FaGithub size={70} />
+                    </a>
+
+                </div>
+
+                <p>Emails: salee@asu.edu</p>
             </div>
         </section>
     );
