@@ -94,6 +94,7 @@ Some interactive UI components used in this project are based on open-source com
 
 - **ReactBits** – https://www.reactbits.dev/
 - ReactBits GitHub Repository – https://github.com/DavidHDev/react-bits
+- **Material UI** - https://mui.com/material-ui/react-timeline/#left-aligned
 
 
 
