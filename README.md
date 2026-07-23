@@ -38,7 +38,9 @@ src/
 │   │   ├── Experience.css
 │   │   ├── ExperienceTimeline.jsx
 │   │   └── WorkTimeline.jsx
-│   ├── Contact.jsx
+│   ├── Contact/
+│   │   ├── Contact.jsx
+│   |   └── Contact.css
 │   ├── Footer.jsx
 |   |
 │   ├── TextType/
