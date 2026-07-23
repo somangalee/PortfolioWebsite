@@ -1,0 +1,117 @@
+.contact-section {
+  display: grid;
+  justify-content: center; 
+  align-items: center;
+  gap: 5rem;
+
+  padding: 2.5rem 5.6vw;
+  flex-wrap: wrap;
+}
+
+/* Header */
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header {
+    background-image: linear-gradient(to right, #ffffff, #c3c3ff, #53426b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-line {
+    width: 70px;
+    border: 1px solid #c3c3ff;
+}
+
+/* Two-column layout */
+.contact-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 6rem;
+}
+
+/* Left Side */
+.contact-left {
+    flex: 1;
+}
+
+.contact-left p {
+    color: #d7d7d7;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+/* Icons */
+.contact-grid {
+    display: flex;
+}
+
+.connect-icons {
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+}
+
+.connect-icons a {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.connect-icons a:hover {
+    color: #c3c3ff;
+    transform: translateY(-5px) scale(1.08);
+}
+
+/* Right Side */
+.contact-right {
+    flex: 0.8;
+}
+
+.side-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding: 2rem;
+    border: 1px solid rgba(195, 195, 255, 0.2);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.side-info p {
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+.side-info strong {
+    color: #c3c3ff;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .contact-text {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .connect-icons {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
