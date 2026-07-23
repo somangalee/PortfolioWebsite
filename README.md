@@ -33,8 +33,14 @@ src/
 │   ├── Hero.jsx
 │   ├── About.jsx
 │   ├── Portfolio.jsx
-│   ├── Experience.jsx
-│   ├── Contact.jsx
+│   ├── Experience/
+│   │   ├── Experience.jsx
+│   │   ├── Experience.css
+│   │   ├── ExperienceTimeline.jsx
+│   │   └── WorkTimeline.jsx
+│   ├── Contact/
+│   │   ├── Contact.jsx
+│   |   └── Contact.css
 │   ├── Footer.jsx
 |   |
 │   ├── TextType/
