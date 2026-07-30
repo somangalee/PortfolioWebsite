@@ -152,8 +152,17 @@ function Experience() {
 
                     </div> {/* End of Tools Section */}
 
-            </div> 
 
+                    {/* Languages Section */}
+                    <div>
+                        <h2 className="sub-header">Languages</h2>
+
+                        <p> Spanish and English</p>
+                    </div>
+
+                    
+
+                </div> 
 
             </div>
         </section>
